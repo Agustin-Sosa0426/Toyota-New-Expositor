@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LandingHeader from '../components/LandingHeader.astro';
+import HeroSection from '../components/HeroSection.astro';
+import RAV4Section from '../components/RAV4Section.astro';
+import SW4DIAMONDSection from '../components/SW4Section.astro';
+import CorollaSection from '../components/CorollaSection.astro';
+import CorollaCrossSection from '../components/CorollaCrossSection.astro';
+import LandCruiserSection from '../components/LandCruiserSection.astro';
+---
+
+<Layout title="Welcome to Toyota.">
+	<LandingHeader />
+	
+    <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+		<div class="snap-center">
+			<HeroSection />
+		</div>
+		<div class="snap-center">
+			<SW4DIAMONDSection />
+		</div>
+		<div class="snap-center">
+			<CorollaSection />
+		</div>
+		<div class="snap-center">
+			<CorollaCrossSection />
+		</div>
+		<div class="snap-center">
+			<LandCruiserSection />
+		</div>
+		<div class="snap-center">
+			<RAV4Section />
+		</div>
+
+    </main>
+
+</Layout>
